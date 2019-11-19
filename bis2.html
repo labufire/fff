@@ -1,0 +1,947 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!--TITLE-->   
+    <title>Payment : BIS</title>
+ 
+<!--CSS-->       
+    <style type="text/css">		
+	  img
+		{
+	  	padding: 10px;
+		}		
+	</style>
+    
+    <style type="text/css">
+       .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        }
+    </style>
+     
+     <style>
+    .cc-img {
+        margin: 0 auto;
+    }
+</style>
+     
+  	</head>
+  	
+<!--BODY-->  	
+  	<body class="cyan-skin">
+    <!--<h1>Hello, world!</h1>-->
+           
+<!--NAVBAR -->   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  		<a class="navbar-brand text-danger" href="bis1.html"> GURU ACADEMY</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+
+  	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    	<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      		<li class="nav-item">
+        		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      		</li>
+      		<li class="nav-item dropdown">
+       			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdown" >                
+          				<a class="dropdown-item list-group-item d-flex justify-content-between align-items-center" href="#">Network <span class="badge badge-dark badge-pill">14</span> </a>
+          				<a class="dropdown-item list-group-item d-flex justify-content-between align-items-center" href="#">Infographic <span class="badge badge-dark badge-pill">13</span> </a>
+          				<a class="dropdown-item list-group-item d-flex justify-content-between align-items-center" href="#">Photoshop <span class="badge badge-dark badge-pill">12</span></a>
+          				<a class="dropdown-item list-group-item d-flex justify-content-between align-items-center" href="#">Cooking <span class="badge badge-dark badge-pill">11</span></a>
+          			<div class="dropdown-divider"></div>
+          		<a class="dropdown-item" href="#">See more...</a>
+      				</div>
+      		</li>
+      
+      		<li class="nav-item">
+        		<a class="nav-link" href="#">About us</a>
+      		</li>
+      		<li class="nav-item">
+        		<a class="nav-link" href="#">Contact</a>
+      		</li>
+    	</ul>
+    	<form class="form-inline my-2 my-lg-0">
+      		<input class="form-control mr-sm-2" type="search" placeholder="Search">
+      		<button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      		<button class="btn btn-secondary my-2 my-sm-0" type="submit">Logout</button>
+    	</form>
+  	</div>
+	</nav>
+<br><br><br>
+ 	
+  <!---------------------->
+  
+  <h2 align="center" class="text-danger"><strong>SELECT PAYMENT METHOD</strong></h2>
+
+<br><br><br><br>
+<p align="center">
+ <!--<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    test
+  </a>-->
+  
+  <button class="btn-lg btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+  <img src="img/l1.png" style="width:65px;height:50px;border:0;">
+
+    <b>Credit Card</b>
+  </button>
+   
+   <button class="btn-lg btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+   <img src="img/l7.png" style="width:65px;height:50px;border:0;">
+    <b>Debit Card</b>
+  </button>
+  
+  <button class="btn-lg btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+   <img src="img/l2.png" style="width:80px;height:50px;border:0;">
+    <b>PayPal</b>
+  </button>
+  
+  <button class="btn-lg btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+   <img src="img/l10.png" style="width:65px;height:50px;border:0;">
+    <b>Net Banking</b>
+  </button>
+  
+  <button class="btn-lg btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample4">
+   <img src="img/l12.png" style="width:50px;height:50px;border:0;">
+    <b>e-Wallet</b>
+  </button>
+  
+  
+</p>
+<br><br>
+
+
+<div class="collapse show" id="collapseExample1">
+  <div class="card card-body">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-4 offset-md-4">
+            <div class="card ">
+                <div class="card-header">
+                    <div class="row">
+                        <h4 class="text-xs-center text-success"><b>Payment Details</b></h4>
+                        <img class="img-fluid cc-img" src="http://buy-more-fans.com/wp-content/uploads/2015/12/credit-cards-logos-200px-high-WEB.png">
+                    </div>
+                </div>
+                <div class="card-block">
+                    <form role="form">
+                        <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group"><br>
+                                    <label><b> CARD NUMBER</b></label>
+                                    <div class="input-group">
+                                        <input type="tel" class="form-control" placeholder="Valid Card Number" />
+                                        <span class="input-group-addon"><span class="fa fa-credit-card"></span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group">
+									<label><span class="hidden-xs"><b> EXPIRATION DATE</b></span></label>
+                                    <input type="tel" class="form-control" placeholder="MM / YY" />
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-md-5 float-xs-right">
+                                <div class="form-group">
+                                    <label><b>CV CODE</b></label>
+                                    <input type="tel" class="form-control" placeholder="CVC" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group">
+                                    <label><b>CARD OWNER</b></label>
+                                    <input type="text" class="form-control" placeholder="Card Owner Names" />
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        
+                          <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group">
+                                    <label><b>COUPON CODE</b></label>
+                                    <input type="text" class="form-control" placeholder="Coupon Code" />
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-md-5 float-xs-right">
+                                
+                                    <label><b>PRICE</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label><h2 class="text-info"> <b>฿360.-</b></h2></label>
+                                    <!--<input type="tel" class="form-control" placeholder="360.-" />-->
+                                
+                            </div>
+                        </div>         
+                    </form>
+                </div>
+                <div class="card-footer">
+                   
+                   <div class="checkbox">
+                            <label>
+                                <input name="terms" type="checkbox">&nbsp;&nbsp;<i>By checking this box, I agree to the <a href="#">Terms &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of service</a> & <a href="#">Conditions</a> & <a href="#">Privacy Policy</a>.</i>
+
+                            </label>
+                        </div>
+                 <!--  
+                    <div class="row">
+                        <div class="col-xs-12">
+                           <div class="single-bottom">
+													<ul>
+														<li>
+															<input type="checkbox">
+															<label class="font-italic">By checking this box, I agree to the Terms & Conditions & Privacy Policy.</label>
+														</li>
+													</ul>
+											</div>
+                           -->
+                            <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#exampleModalCenter">PROCESS PAYMENT</button>
+                            <!-- Button trigger modal -->
+
+
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title" id="exampleModalLongTitle" align="center">
+        <div class="alert alert-info" role="alert" >
+  <h5>Your payment is successful!</h5>
+			</div></p>
+      <!--  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>-->
+      </div>
+
+      <div class="modal-body">
+            <embed src="pdf.pdf" type="application/pdf" width="768px" height="100%">
+      </div>
+
+      <div class="modal-footer">
+            
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Download receipt</button>
+        <button type="button" class="btn btn-primary">Enter to the course</button>
+      </div>
+    </div>
+  </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+  </div>
+</div>-->
+
+
+<div class="collapse" id="collapseExample2">
+  <div class="card card-body">
+ <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-4 offset-md-4">
+            <div class="card ">
+                <div class="card-header">
+                    <div class="row">
+                        <h4 class="text-xs-center text-success"><b>Payment Details</b></h4>
+                        <img class="img-fluid cc-img" src="https://d3bbatwdaufxg9.cloudfront.net/content/5014/5673/8041/vg_atm07.png">
+                    </div>
+                </div>
+                <div class="card-block">
+                    <form role="form">
+                        <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group"><br>
+                                    <label><b> CARD NUMBER</b></label>
+                                    <div class="input-group">
+                                        <input type="tel" class="form-control" placeholder="Valid Card Number" />
+                                        <span class="input-group-addon"><span class="fa fa-credit-card"></span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group">
+									<label><span class="hidden-xs"><b> EXPIRATION DATE</b></span></label>
+                                    <input type="tel" class="form-control" placeholder="MM / YY" />
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-md-5 float-xs-right">
+                                <div class="form-group">
+                                    <label><b>CV CODE</b></label>
+                                    <input type="tel" class="form-control" placeholder="CVC" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group">
+                                    <label><b>CARD OWNER</b></label>
+                                    <input type="text" class="form-control" placeholder="Card Owner Names" />
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        
+                          <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group">
+                                    <label><b>COUPON CODE</b></label>
+                                    <input type="text" class="form-control" placeholder="Coupon Code" />
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-md-5 float-xs-right">
+                                
+                                    <label><b>PRICE</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label><h2 class="text-info"> <b>฿360.-</b></h2></label>
+                                    <!--<input type="tel" class="form-control" placeholder="360.-" />-->
+                                
+                            </div>
+                        </div>         
+                    </form>
+                </div>
+                <div class="card-footer">
+                   
+                   
+                   <div class="checkbox">
+                            <label>
+                                <input name="terms" type="checkbox">&nbsp;&nbsp;<i>By checking this box, I agree to the <a href="#">Terms &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of service</a> & <a href="#">Conditions</a> & <a href="#">Privacy Policy</a>.</i>
+
+                            </label>
+                        </div>
+            <!--       
+                    <div class="row">
+                        <div class="col-xs-12">
+                           <div class="single-bottom">
+													<ul>
+														<li>
+															<input type="checkbox">
+															<label class="font-italic">By checking this box, I agree to the Terms & Conditions & Privacy Policy.</label>
+														</li>
+													</ul>
+											</div>
+                           -->
+                            <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#exampleModalCenter1">PROCESS PAYMENT</button>
+                            <!-- Button trigger modal -->
+
+
+
+<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title" id="exampleModalLongTitle1" align="center">
+        <div class="alert alert-info" role="alert" >
+  <h5>Your payment is successful!</h5>
+			</div></p>
+      <!--  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>-->
+      </div>
+
+      <div class="modal-body">
+            <embed src="pdf.pdf" type="application/pdf" width="470px" height="100px">
+      </div>
+
+      <div class="modal-footer">
+            
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Download receipt</button>
+        <button type="button" class="btn btn-primary">Enter to the course</button>
+      </div>
+    </div>
+  </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+  </div>
+</div>
+
+-->
+
+
+
+
+
+
+<div class="collapse" id="collapseExample3">
+  <div class="card card-body">
+   <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-4 offset-md-4">
+            <div class="card ">
+                <div class="card-header">
+                    <div class="row">
+                        <h4 class="text-xs-center text-success"><b>Payment Details</b></h4>
+                        <img class="img-fluid cc-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/2000px-PayPal_logo.svg.png">
+                    </div>
+                </div>
+                <div class="card-block">
+                    <form role="form">
+                        <br><br>
+
+                        
+                          <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                               
+                            </div>
+                            <div class="col-xs-5 col-md-5 float-xs-right">
+                                
+                                    <label><b>PRICE</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label><h2 class="text-info"> <b>฿360.-</b></h2></label>
+                                    <!--<input type="tel" class="form-control" placeholder="360.-" />-->
+                                
+                            </div>
+                        </div>
+<br><br>
+                   
+                                          <a href="https://www.paypal.com/signin?intent=checkout&ctxId=ullndg5e141e4021bb43fb9cd47333e7e8445f&returnUri=%2Fwebapps%2Fhermes&state=%3Fflow%3D1-P%26ulReturn%3Dtrue%26token%3DEC-2VJ6101138516161D%26useraction%3Dcommit&flowId=EC-2VJ6101138516161D&country.x=TH&locale.x=en_GB&langTgl=en_GB" class="btn btn-outline-primary btn-lg btn-block" target="_blank">Login to <img src="img/l2.png" style="width:70px;height:40px;border:0;"></a>    
+                                   
+                              <br>             
+                                                           
+                    </form>
+                </div>
+                <div class="card-footer">
+                 <div class="row">
+                        <div class="col-xs-12">
+                           <div class="single-bottom">
+                  
+                  <p class="text-danger"><i>&nbsp;&nbsp;&nbsp;* if you Already paid, click the button bellow.</i></p>
+                   
+							</div>
+					 </div>
+					</div>
+                   
+                                               <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#exampleModalCenter6">PROCESS PAYMENT</button>
+                            <!-- Button trigger modal -->
+
+
+
+<div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title" id="exampleModalLongTitle6" align="center">
+        <div class="alert alert-info" role="alert" >
+  <h5>Your payment is successful!</h5>
+			</div></p>
+      <!--  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>-->
+      </div>
+
+      <div class="modal-body">
+            <embed src="pdf.pdf" type="application/pdf" width="470px" height="100px">
+      </div>
+
+      <div class="modal-footer">
+            
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Download receipt</button>
+        <button type="button" class="btn btn-primary">Enter to the course</button>
+      </div>
+    </div>
+  </div>
+</div>
+                   
+                   <!--
+                   
+                    <div class="row">
+                        <div class="col-xs-12">
+                           <div class="single-bottom">
+													
+                            
+                            
+                            <a href="https://www.paypal.com/signin?intent=checkout&ctxId=ullndg5e141e4021bb43fb9cd47333e7e8445f&returnUri=%2Fwebapps%2Fhermes&state=%3Fflow%3D1-P%26ulReturn%3Dtrue%26token%3DEC-2VJ6101138516161D%26useraction%3Dcommit&flowId=EC-2VJ6101138516161D&country.x=TH&locale.x=en_GB&langTgl=en_GB" class="btn btn-success btn-lg" target="_blank">Login to <img src="img/l2.png" style="width:70px;height:40px;border:0;"></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+
+<div class="collapse" id="collapseExample4">
+  <div class="card card-body">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-4 offset-md-4">
+            <div class="card ">
+                <div class="card-header">
+                    <div class="row">
+                        <h4 class="text-xs-center text-success"><b>Payment Details</b></h4>
+                        <img class="img-fluid cc-img" src="img/l14.PNG">
+                    </div>
+                </div>
+                <div class="card-block">
+                    <form role="form">
+<br>
+                       <a href="https://bn.online.standardchartered.com/login/IBank?ser=100&act=MainFrame_BN.jsp&ccode=BN&isSecured=false&countryCode=BN&cntryCode=BN" class="btn btn-outline-primary btn-lg btn-block" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Standard_Chartered.svg/1200px-Standard_Chartered.svg.png" style="width:110px;height:55px;border:0;"><b>Standard Chartered</b></a>
+                       
+                       <a href="https://www.scbeasy.com/v1.4/site/presignon/en/srv/srv.asp" class="btn btn-outline-primary btn-lg btn-block" target="_blank"><img src="http://www.dg-arts.com/media/img/bank/scb.png" style="width:110px;height:55px;border:0;"><b>Siam Commercial Bank</b></a>
+                       
+                       
+                       <a href="https://www.ktbnetbank.com/consumer/" class="btn btn-outline-primary btn-lg btn-block" target="_blank"><img src="https://www.cb.ktb.co.th/supregis/Images/ktb.png" style="width:110px;height:55px;border:0;"><b>Krung Thai Bank</b></a>
+                       
+                       <a href="https://ibanking.bangkokbank.com/EBPP/EBPP_Signon.aspx" class="btn btn-outline-primary btn-lg btn-block" target="_blank"><img src="https://www.job4thai.com/wp-content/uploads/job-bangkok-bank_3.png" style="width:115px;height:55px;border:0;"><b>Bangkok Bank</b></a>
+                       
+                       <a href="https://www.cimbclicks.com.my/clicks/#/" class="btn btn-outline-primary btn-lg btn-block" target="_blank"><img src="http://logos-download.com/wp-content/uploads/2016/06/CIMB_Bank1.png" style="width:110px;height:55px;border:0;"><b>CIMB Bank</b></a>
+                       
+                       <a href="https://apply.business.hsbc.com/pws-cd/login.htm" class="btn btn-outline-primary btn-lg btn-block" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/HSBC.svg/2000px-HSBC.svg.png" style="width:120px;height:55px;border:0;"><b>HSBC Bank</b></a>
+                       
+                       
+                       
+                        <br><br>
+                          <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                
+                            </div>
+                            <div class="col-xs-5 col-md-5 float-xs-right">
+                                
+                                    <label><b>PRICE</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label><h2 class="text-info"> <b>฿360.-</b></h2></label>
+                                    <!--<input type="tel" class="form-control" placeholder="360.-" />-->
+                                
+                            </div>
+                        </div>         
+                    </form>
+                </div>
+                <div class="card-footer">
+                   
+                   
+                    <div class="row">
+                        <div class="col-xs-12">
+                           <div class="single-bottom">
+                           <p class="text-danger">&nbsp;&nbsp;&nbsp;<i>* if you Already paid, click the button bellow.</i></p>
+													
+											</div>
+                             </div>
+</div>
+                            <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#exampleModalCenter4">PROCESS PAYMENT</button>
+                            <!-- Button trigger modal -->
+
+
+
+<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title" id="exampleModalLongTitle4" align="center">
+        <div class="alert alert-info" role="alert" >
+  <h5>Your payment is successful!</h5>
+			</div></p>
+      <!--  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>-->
+      </div>
+
+      <div class="modal-body">
+            <embed src="pdf.pdf" type="application/pdf" width="470px" height="100px">
+      </div>
+
+      <div class="modal-footer">
+            
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Download receipt</button>
+        <button type="button" class="btn btn-primary">Enter to the course</button>
+      </div>
+    </div>
+  </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="collapse" id="collapseExample5">
+  <div class="card card-body">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-4 offset-md-4">
+            <div class="card ">
+                <div class="card-header">
+                    <div class="row">
+                        <h4 class="text-xs-center text-success"><b>Payment Details</b></h4>
+                        <img class="img-fluid cc-img" src="http://dv.co.th/wp-content/uploads/2017/04/Mobile-wallet-logo.jpg">
+                    </div>
+                </div>
+                <div class="card-block">
+                    <form role="form">
+                       
+                       <img class="img-fluid cc-img" src="https://static1.squarespace.com/static/50eca855e4b0939ae8bb12d9/t/56e47bf7b654f908342dabdb/1457814532621/">
+                       
+                       
+                       
+                       
+                        <br><br>
+                          <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                
+                            </div>
+                            <div class="col-xs-5 col-md-5 float-xs-right">
+                                
+                                    <label><b>PRICE</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label><h2 class="text-info"> <b>฿360.-</b></h2></label>
+                                    <!--<input type="tel" class="form-control" placeholder="360.-" />-->
+                                
+                            </div>
+                        </div>         
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-xs-12">
+                           <div class="single-bottom">
+                           <p class="text-danger">&nbsp;&nbsp;&nbsp;<i>* if you Already paid, click the button bellow.</i></p>
+													
+											</div>
+                             </div>
+</div>
+                            <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#exampleModalCenter5">PROCESS PAYMENT</button>
+                            <!-- Button trigger modal -->
+
+
+
+<div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title" id="exampleModalLongTitle5" align="center">
+        <div class="alert alert-info" role="alert" >
+  <h5>Your payment is successful!</h5>
+			</div></p>
+      <!--  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>-->
+      </div>
+
+      <div class="modal-body">
+            <embed src="pdf.pdf" type="application/pdf" width="470px" height="100px">
+      </div>
+
+      <div class="modal-footer">
+            
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Download receipt</button>
+        <button type="button" class="btn btn-primary">Enter to the course</button>
+      </div>
+    </div>
+  </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Credit Card
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        eeeeee
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        aaaaaaaaa
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        ddddddddddd
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--------------------
+<p align="center">
+  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+---->
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+ 
+<br><br>
+
+<!---------------------->
+<br>
+<!--MAP--> 	
+	<div > 	
+		<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.4639271401948!2d101.34244411285158!3d6.597646166209365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b37558dad9424b%3A0xc4fb1dffff9dfbb4!2sIT58+Hostel!5e0!3m2!1sth!2sth!4v1521562673653" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+			
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.5288014721064!2d101.34244411285158!3d6.597646166209365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b37558dad9424b%3A0xc4fb1dffff9dfbb4!2sIT58+Hostel!5e1!3m2!1sth!2sth!4v1521563852857" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+  
+<!--FOOTER-->
+
+<!--Footer-->
+<footer class="page-footer font-small unique-color-dark pt-0">
+
+    <div style="background-color: #2f343d;">
+        <div class="container">
+            <!--Grid row-->
+            <div class="row py-4 d-flex align-items-center">
+
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h5 class="mb-0 white-text" style="color: darkgray">Get connected with us on social networks!</h5>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+                    <!--Facebook-->
+                    <a class="fb-ic ml-0">
+                       <img src="img/icon/48x48/fb.png">
+                    </a>
+                    <!--Twitter-->
+                    <a class="tw-ic">
+                        <img src="img/icon/48x48/twitter.png">                      
+                    </a>
+                    <!--Google +-->
+                    <a class="gplus-ic">
+                       <img src="img/icon/48x48/instagram.png">
+                    </a>
+                    <!--Linkedin-->
+                    <a class="li-ic">
+                       <img src="img/icon/48x48/google+.png">
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic">
+                        <img src="img/icon/48x48/skype.png">
+                    </a>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+        </div>
+    </div>
+
+    <!--Footer Links-->
+    <div class="container mt-5 mb-4 text-center text-md-left">
+        <div class="row mt-3">
+
+            <!--First column-->
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>About us</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
+				<p><a href="bis1.html"><kbd>GURU ACADEMY</kbd></a> is the one of<br>the most famous online course platform in Southeastern Asia<br>and part of North America. Our platform is easier to learn and<br>more understand.</p>
+
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Services</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="#!"><kbd>Certificates Test</kbd></a>
+                </p>
+                <p>
+                    <a href="#!"><kbd>Become Lecturer</kbd></a>
+                </p>
+                <p>
+                    <a href="#!"><kbd>Majablee</kbd></a>
+                </p>
+                <p>
+                    <a href="#!"><kbd>Jabilar</kbd></a>
+                </p>
+            </div>
+            <!--/.Second column-->
+
+            <!--Third column-->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Links</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="#!"><kbd>Your Account</kbd></a>
+                </p>
+                <p>
+                    <a href="#!"><kbd>Lecturers</kbd></a>
+                </p>
+                <p>
+                    <a href="#!"><kbd>Terms & Privacy</kbd></a>
+                </p>
+                <p>
+                    <a href="#!"><kbd>Help</kbd></a>
+                </p>
+            </div>
+            <!--/.Third column-->
+
+            <!--Fourth column-->
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Contact</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <i class="fa fa-home mr-3"></i> Yala, YL 95000, TH</p>
+                <p>
+                    <i class="fa fa-envelope mr-3"></i> info@njacademy.com</p>
+                <p>
+                    <i class="fa fa-phone mr-3"></i> (+66) 07 334 567 88</p>
+                <p>
+                    <i class="fa fa-print mr-3"></i> (+66) 07 334 567 89</p>
+            </div>
+            <!--/.Fourth column-->
+
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <!-- Copyright
+    <div class="footer-copyright py-3 text-center">
+        © 2018 Copyright:
+        <a href="#!">
+            <strong> nga-jeeacademy.com</strong>
+        </a>
+    </div>
+    <!--/.Copyright -->
+
+</footer>
+<!--/.Footer-->
+                     
+       <footer>
+
+<nav class="navbar navbar-inverse bg-dark">
+  <div class="container-fluid">
+  <br>
+ 
+    <div class="footer-copyright py-3 text-center text-darkgray">© 2018 Copyright:
+        <a href="#!" class="text-danger">GURUACADEMY.com
+        </a>
+    </div>
+<br>
+  </div>
+</nav>
+   </footer>  
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
+    
+
+    
+
